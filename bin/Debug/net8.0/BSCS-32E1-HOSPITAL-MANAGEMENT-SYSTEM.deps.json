@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM/1.0.0": {
+        "runtime": {
+          "BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

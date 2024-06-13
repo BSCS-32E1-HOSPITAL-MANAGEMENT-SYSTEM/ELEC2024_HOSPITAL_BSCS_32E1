@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\STUDENT\\Documents\\gathab\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj": {}
+    "C:\\Users\\Warren27\\OneDrive - lyceum of alabang\\Documents\\BSCS 3\\2ND SEM\\Elective 3\\ELEC2024_HOSPITAL_BSCS_32E1\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\STUDENT\\Documents\\gathab\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj": {
+    "C:\\Users\\Warren27\\OneDrive - lyceum of alabang\\Documents\\BSCS 3\\2ND SEM\\Elective 3\\ELEC2024_HOSPITAL_BSCS_32E1\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\STUDENT\\Documents\\gathab\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj",
+        "projectUniqueName": "C:\\Users\\Warren27\\OneDrive - lyceum of alabang\\Documents\\BSCS 3\\2ND SEM\\Elective 3\\ELEC2024_HOSPITAL_BSCS_32E1\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj",
         "projectName": "BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM",
-        "projectPath": "C:\\Users\\STUDENT\\Documents\\gathab\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj",
-        "packagesPath": "C:\\Users\\STUDENT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\STUDENT\\Documents\\gathab\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM\\obj\\",
+        "projectPath": "C:\\Users\\Warren27\\OneDrive - lyceum of alabang\\Documents\\BSCS 3\\2ND SEM\\Elective 3\\ELEC2024_HOSPITAL_BSCS_32E1\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj",
+        "packagesPath": "C:\\Users\\Warren27\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Warren27\\OneDrive - lyceum of alabang\\Documents\\BSCS 3\\2ND SEM\\Elective 3\\ELEC2024_HOSPITAL_BSCS_32E1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\STUDENT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Warren27\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +44,138 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Antlr": {
+              "target": "Package",
+              "version": "[3.5.0.2, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.0-preview2-24180-01, )"
+            },
+            "Microsoft.AspNet.Identity.Core": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.AspNet.Identity.Owin": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.AspNet.Razor": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Microsoft.AspNet.Web.Optimization": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            },
+            "Microsoft.AspNet.WebPages": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.Net.Compilers.Toolset": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "Microsoft.Owin": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Microsoft.Owin.Host.SystemWeb": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Microsoft.Owin.Security": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Microsoft.Owin.Security.Cookies": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Microsoft.Owin.Security.Facebook": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Microsoft.Owin.Security.Google": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Microsoft.Owin.Security.MicrosoftAccount": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Microsoft.Owin.Security.OAuth": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Microsoft.Owin.Security.Twitter": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Microsoft.Web.Infrastructure": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.jQuery.Unobtrusive.Validation": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Modernizr": {
+              "target": "Package",
+              "version": "[2.8.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Owin": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Respond": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "WebGrease": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "bootbox": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            },
+            "jQuery.Validation": {
+              "target": "Package",
+              "version": "[1.20.0, )"
+            },
+            "jquery.datatables": {
+              "target": "Package",
+              "version": "[1.10.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

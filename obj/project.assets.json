@@ -2712,19 +2712,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Warren27\\.nuget\\packages\\": {}
+    "C:\\Users\\josei\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Warren27\\OneDrive - lyceum of alabang\\Documents\\BSCS 3\\2ND SEM\\Elective 3\\ELEC2024_HOSPITAL_BSCS_32E1\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj",
+      "projectUniqueName": "E:\\PEÑAFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj",
       "projectName": "BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM",
-      "projectPath": "C:\\Users\\Warren27\\OneDrive - lyceum of alabang\\Documents\\BSCS 3\\2ND SEM\\Elective 3\\ELEC2024_HOSPITAL_BSCS_32E1\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj",
-      "packagesPath": "C:\\Users\\Warren27\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Warren27\\OneDrive - lyceum of alabang\\Documents\\BSCS 3\\2ND SEM\\Elective 3\\ELEC2024_HOSPITAL_BSCS_32E1\\obj\\",
+      "projectPath": "E:\\PEÑAFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj",
+      "packagesPath": "C:\\Users\\josei\\.nuget\\packages\\",
+      "outputPath": "E:\\PEÑAFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Warren27\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\josei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2905,7 +2910,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

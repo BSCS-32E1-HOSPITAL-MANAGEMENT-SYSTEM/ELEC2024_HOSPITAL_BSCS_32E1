@@ -1,7 +1,43 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Warren27\\OneDrive - lyceum of alabang\\Documents\\BSCS 3\\2ND SEM\\Elective 3\\ELEC2024_HOSPITAL_BSCS_32E1\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|e:\\pe\u00F1aflor-elec2024_hospital_bscs_32e1\\elec2024_hospital_bscs_32e1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|solutionrelative:wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|c:\\users\\josei\\.nuget\\packages\\bootstrap\\5.3.3\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,19 +45,113 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\josei\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\josei\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-14T02:32:37.208Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T02:32:34.707Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-14T02:32:33.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-14T02:02:28.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
+              "ToolTip": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-06-14T02:32:48.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T02:35:47.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T02:07:25.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T02:27:06.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAswA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-14T02:26:34.848Z"
             }
           ]
         }

@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Services.Description;
 
-namespace Hospital_Management_System.Models
+namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Models
 {
     public static class DeleteAnnouncementOnExpire
     {

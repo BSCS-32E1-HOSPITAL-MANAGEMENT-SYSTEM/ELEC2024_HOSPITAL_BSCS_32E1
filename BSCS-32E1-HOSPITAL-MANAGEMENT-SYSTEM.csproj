@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Content\sass\.sass-cache\deff34d1f5b7167181b556002c25068d6adc024d\styles.scssc" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Antlr" Version="3.5.0.2" />
     <PackageReference Include="bootbox" Version="4.3.0" />
     <PackageReference Include="bootstrap" Version="5.3.3" />

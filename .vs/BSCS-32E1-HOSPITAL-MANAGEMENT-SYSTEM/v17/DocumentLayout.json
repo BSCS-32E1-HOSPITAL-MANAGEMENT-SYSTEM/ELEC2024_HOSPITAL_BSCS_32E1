@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|e:\\pe\u00F1aflor-elec2024_hospital_bscs_32e1\\elec2024_hospital_bscs_32e1\\views\\doctor\\editschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|solutionrelative:views\\doctor\\editschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|e:\\pe\u00F1aflor-elec2024_hospital_bscs_32e1\\elec2024_hospital_bscs_32e1\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|solutionrelative:models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|e:\\pe\u00F1aflor-elec2024_hospital_bscs_32e1\\elec2024_hospital_bscs_32e1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{DBE3E0A7-9CDB-4AD8-838C-BC15766EEB1F}|BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
@@ -30,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "site.css",
               "DocumentMoniker": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -39,12 +43,24 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-14T02:02:28.989Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EditSchedule.cshtml",
+              "DocumentMoniker": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\Views\\Doctor\\EditSchedule.cshtml",
+              "RelativeDocumentMoniker": "Views\\Doctor\\EditSchedule.cshtml",
+              "ToolTip": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\Views\\Doctor\\EditSchedule.cshtml",
+              "RelativeToolTip": "Views\\Doctor\\EditSchedule.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T09:50:47.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Doctor.cs",
               "DocumentMoniker": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\Models\\Doctor.cs",
               "RelativeDocumentMoniker": "Models\\Doctor.cs",
@@ -56,12 +72,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -73,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\PE\u00D1AFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",

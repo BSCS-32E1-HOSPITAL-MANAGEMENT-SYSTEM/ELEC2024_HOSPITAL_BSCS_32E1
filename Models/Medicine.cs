@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace Hospital_Management_System.Models
+namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Models
 {
     public class Medicine
     {

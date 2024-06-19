@@ -8,14 +8,14 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using Hospital_Management_System.Models;
+using BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Hospital_Management_System.Controllers
+namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Controllers
 {
     [Authorize]
     public class AccountController : Controller

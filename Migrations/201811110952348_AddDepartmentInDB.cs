@@ -1,4 +1,4 @@
-namespace Hospital_Management_System.Migrations
+namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

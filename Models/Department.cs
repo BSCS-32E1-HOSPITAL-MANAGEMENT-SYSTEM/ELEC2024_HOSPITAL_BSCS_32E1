@@ -6,7 +6,7 @@ using System.Web;
 
 namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Models
 {
-    public class Medicine
+    public class Department
     {
         public int Id { get; set; }
         [Required]
@@ -14,9 +14,6 @@ namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Models
         [Required]
         public string Description { get; set; }
         [Required]
-        public int Quantity { get; set; }
-        [Required]
-        public double Price { get; set; }
-        
+        public string Status { get; set; }
     }
 }

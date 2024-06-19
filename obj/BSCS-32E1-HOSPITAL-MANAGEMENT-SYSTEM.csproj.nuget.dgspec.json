@@ -53,9 +53,17 @@
               "target": "Package",
               "version": "[3.5.0.2, )"
             },
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
             "EntityFramework": {
               "target": "Package",
               "version": "[6.5.0-preview2-24180-01, )"
+            },
+            "Fluent.Infrastructure": {
+              "target": "Package",
+              "version": "[2.0.0-beta-01, )"
             },
             "Microsoft.AspNet.Identity.Core": {
               "target": "Package",

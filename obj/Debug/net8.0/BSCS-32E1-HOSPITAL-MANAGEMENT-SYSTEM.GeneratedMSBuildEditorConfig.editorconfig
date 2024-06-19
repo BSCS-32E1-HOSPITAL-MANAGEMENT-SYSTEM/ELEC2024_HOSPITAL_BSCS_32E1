@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\PEÑAFLOR-ELEC2024_HOSPITAL_BSCS_32E1\ELEC2024_HOSPITAL_BSCS_32E1
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/PEÑAFLOR-ELEC2024_HOSPITAL_BSCS_32E1/ELEC2024_HOSPITAL_BSCS_32E1/Views/Doctor/EditSchedule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEVkaXRTY2hlZHVsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/PEÑAFLOR-ELEC2024_HOSPITAL_BSCS_32E1/ELEC2024_HOSPITAL_BSCS_32E1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -377,5 +377,6 @@
     <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\josei\.nuget\packages\jquery\3.7.1</PkgjQuery>
     <PkgMicrosoft_CodeDom_Providers_DotNetCompilerPlatform Condition=" '$(PkgMicrosoft_CodeDom_Providers_DotNetCompilerPlatform)' == '' ">C:\Users\josei\.nuget\packages\microsoft.codedom.providers.dotnetcompilerplatform\4.1.0</PkgMicrosoft_CodeDom_Providers_DotNetCompilerPlatform>
     <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\josei\.nuget\packages\entityframework\6.5.0-preview2-24180-01</PkgEntityFramework>
+    <PkgFluent_Infrastructure Condition=" '$(PkgFluent_Infrastructure)' == '' ">C:\Users\josei\.nuget\packages\fluent.infrastructure\2.0.0-beta-01</PkgFluent_Infrastructure>
   </PropertyGroup>
 </Project>

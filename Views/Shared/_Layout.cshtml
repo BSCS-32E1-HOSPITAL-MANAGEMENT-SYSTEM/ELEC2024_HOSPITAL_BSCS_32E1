@@ -1,34 +1,35 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.styles.css" asp-append-version="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="~/Content/Layout/vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/Layout/vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/Layout/vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/Layout/resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="~/Content/Layout/vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/Layout/resources/css/queries.css">
+    <link rel="shortcut icon" type="image/x-icon" href="~/Content/Layout/resources/img/logo.jpg" />
+    <title>Hospital Management System</title>
+
 </head>
+
 <body>
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Sign in</a></li>
-                <li><a href="#">Sign Up</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+
+
+    @RenderBody()
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+    <script src="~/Content/Layout/vendors/js/jquery.waypoints.min.js"></script>
+    <script src="~/Content/Layout/resources/js/script.js"></script>
+    @RenderSection("scripts", required: false)
 </body>
+
 </html>
+

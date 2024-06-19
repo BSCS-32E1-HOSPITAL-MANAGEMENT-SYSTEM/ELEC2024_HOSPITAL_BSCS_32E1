@@ -80,6 +80,7 @@ body {
     border-radius: 50px;
     cursor: pointer;
     left: 8%;
+    transition: 2.2s;
 }
     .p1 button:hover {
         background: var(--secondary-color);

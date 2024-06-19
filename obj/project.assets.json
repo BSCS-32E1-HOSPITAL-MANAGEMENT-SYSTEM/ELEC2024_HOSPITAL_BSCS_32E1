@@ -11,6 +11,19 @@
           "lib/Antlr3.Runtime.dll": {}
         }
       },
+      "AutoMapper/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "bootbox/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -243,6 +256,51 @@
           }
         }
       },
+      "Castle.Core/3.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml/3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "DocumentFormat.OpenXml.Framework": "3.0.2"
+        },
+        "compile": {
+          "lib/net8.0/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml.Framework/3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Packaging": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/DocumentFormat.OpenXml.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/DocumentFormat.OpenXml.Framework.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "EntityFramework/6.5.0-preview2-24180-01": {
         "type": "package",
         "dependencies": {
@@ -271,6 +329,29 @@
         "build": {
           "buildTransitive/net6.0/EntityFramework.props": {},
           "buildTransitive/net6.0/EntityFramework.targets": {}
+        }
+      },
+      "Fluent.Infrastructure/2.0.0-beta-01": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "4.2.1",
+          "Castle.Core": "3.3.3",
+          "Microsoft.AspNet.Identity.EntityFramework": "2.2.1",
+          "Microsoft.AspNet.Identity.Owin": "2.2.1",
+          "Microsoft.AspNet.Mvc": "5.2.3",
+          "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "1.0.1",
+          "Microsoft.Owin.Host.SystemWeb": "3.0.1",
+          "Microsoft.Owin.Security.Facebook": "3.0.1",
+          "Microsoft.Owin.Security.Google": "3.0.1",
+          "Microsoft.Owin.Security.MicrosoftAccount": "3.0.1",
+          "Microsoft.Owin.Security.Twitter": "3.0.1",
+          "WebActivatorEx": "2.1.0"
+        },
+        "compile": {
+          "lib/net461/Fluent.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Fluent.Infrastructure.dll": {}
         }
       },
       "jQuery/3.7.1": {
@@ -846,6 +927,22 @@
           }
         }
       },
+      "System.IO.Packaging/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Packaging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Packaging.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "System.Security.AccessControl/6.0.0": {
         "type": "package",
         "compile": {
@@ -955,6 +1052,18 @@
           }
         }
       },
+      "WebActivatorEx/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net40/WebActivatorEx.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WebActivatorEx.dll": {}
+        }
+      },
       "WebGrease/1.6.0": {
         "type": "package",
         "dependencies": {
@@ -982,6 +1091,23 @@
         "antlr.nuspec",
         "lib/Antlr3.Runtime.dll",
         "lib/Antlr3.Runtime.pdb"
+      ]
+    },
+    "AutoMapper/4.2.1": {
+      "sha512": "BxAMt0Sl9dQIPPualuMv6IhJ5QrWmWSgyYZ/QxcQcR2IBu57/CXG5IP+73sFIr4FMNtcrUugWnuOWkYnlrLVWQ==",
+      "type": "package",
+      "path": "automapper/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.4.2.1.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/dotnet5.1/AutoMapper.dll",
+        "lib/dotnet5.1/AutoMapper.xml",
+        "lib/net45/AutoMapper.dll",
+        "lib/net45/AutoMapper.xml",
+        "lib/portable-net45+win+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10/AutoMapper.dll",
+        "lib/portable-net45+win+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10/AutoMapper.xml"
       ]
     },
     "bootbox/4.3.0": {
@@ -1097,6 +1223,80 @@
         "contentFiles/any/any/wwwroot/js/bootstrap.min.js.map"
       ]
     },
+    "Castle.Core/3.3.3": {
+      "sha512": "tvVrLbHhtAGubUUDbEkH9JlivdlJOTI25u3hlyHpPxuJdTVi/yVQKWCYvGpafGPm7G1ibdWj4brqhtSQkAmN+g==",
+      "type": "package",
+      "path": "castle.core/3.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ASL - Apache Software Foundation License.txt",
+        "BreakingChanges.txt",
+        "Changes.txt",
+        "License.txt",
+        "castle.core.3.3.3.nupkg.sha512",
+        "castle.core.nuspec",
+        "lib/net35/Castle.Core.dll",
+        "lib/net35/Castle.Core.xml",
+        "lib/net40-client/Castle.Core.dll",
+        "lib/net40-client/Castle.Core.xml",
+        "lib/net45/Castle.Core.dll",
+        "lib/net45/Castle.Core.xml",
+        "lib/sl4/Castle.Core.dll",
+        "lib/sl4/Castle.Core.xml",
+        "lib/sl5/Castle.Core.dll",
+        "lib/sl5/Castle.Core.xml",
+        "readme.txt"
+      ]
+    },
+    "DocumentFormat.OpenXml/3.0.2": {
+      "sha512": "gqjP/BxKWgwAWwPAN+RpKaMOiidPM07F+mAxiiW184/MnkHnkk12Qo7cRB0wuq4kOZUrUzQ9EUO966hUy/wKBw==",
+      "type": "package",
+      "path": "documentformat.openxml/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "documentformat.openxml.3.0.2.nupkg.sha512",
+        "documentformat.openxml.nuspec",
+        "icon.png",
+        "lib/net35/DocumentFormat.OpenXml.dll",
+        "lib/net35/DocumentFormat.OpenXml.xml",
+        "lib/net40/DocumentFormat.OpenXml.dll",
+        "lib/net40/DocumentFormat.OpenXml.xml",
+        "lib/net46/DocumentFormat.OpenXml.dll",
+        "lib/net46/DocumentFormat.OpenXml.xml",
+        "lib/net8.0/DocumentFormat.OpenXml.dll",
+        "lib/net8.0/DocumentFormat.OpenXml.xml",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.dll",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
+      ]
+    },
+    "DocumentFormat.OpenXml.Framework/3.0.2": {
+      "sha512": "ILRCJu2dUJDv27ZCQDftD7AZSuBgKg+ZSUF9dg2dk8qcIED7oM42y/cvZIm0mev80nj2QMzpxthX87+AebzHug==",
+      "type": "package",
+      "path": "documentformat.openxml.framework/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "documentformat.openxml.framework.3.0.2.nupkg.sha512",
+        "documentformat.openxml.framework.nuspec",
+        "icon.png",
+        "lib/net35/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net35/DocumentFormat.OpenXml.Framework.xml",
+        "lib/net40/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net40/DocumentFormat.OpenXml.Framework.xml",
+        "lib/net46/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net46/DocumentFormat.OpenXml.Framework.xml",
+        "lib/net6.0/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net6.0/DocumentFormat.OpenXml.Framework.xml",
+        "lib/net8.0/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net8.0/DocumentFormat.OpenXml.Framework.xml",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.Framework.dll",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.Framework.xml"
+      ]
+    },
     "EntityFramework/6.5.0-preview2-24180-01": {
       "sha512": "ayINBZckOA2pzSidvc91rr/2AV44HTqe3025ghdkI13xu5uxa8MVpIIUsGrtTHhvBANaXSGLUeFoaxC4osmNCQ==",
       "type": "package",
@@ -1156,6 +1356,35 @@
         "tools/net6.0/any/ef6.dll",
         "tools/net6.0/any/ef6.pdb",
         "tools/net6.0/any/ef6.runtimeconfig.json"
+      ]
+    },
+    "Fluent.Infrastructure/2.0.0-beta-01": {
+      "sha512": "clX6R39rRol2Jv/Gn23M7qO87MDBIMpI+N8uCFoNFJJCUUqEd9m4wlc4dMdM37oTI3E3mUby9I3jFDKBMd6xAw==",
+      "type": "package",
+      "path": "fluent.infrastructure/2.0.0-beta-01",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/App_Start/App_Start.cs.pp",
+        "content/App_Start/RouteConfig.cs.pp",
+        "content/Context/DbContextLocal.cs.pp",
+        "content/Controllers/ForumController.cs.pp",
+        "content/Mapper/ForumMap.cs.pp",
+        "content/Models/Forum.cs.pp",
+        "content/Startup.cs.pp",
+        "content/Views/Forum/AddReturn.cshtml.pp",
+        "content/Views/Forum/New.cshtml.pp",
+        "content/Views/Shared/Index.cshtml.pp",
+        "content/Views/Web.config.transform",
+        "content/Web.config.transform",
+        "content/readme.txt",
+        "fluent.infrastructure.2.0.0-beta-01.nupkg.sha512",
+        "fluent.infrastructure.nuspec",
+        "lib/net461/Fluent.Infrastructure.dll",
+        "readme.txt",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "jQuery/3.7.1": {
@@ -2490,6 +2719,35 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.IO.Packaging/8.0.0": {
+      "sha512": "8g1V4YRpdGAxFcK8v9OjuMdIOJSpF30Zb1JGicwVZhly3I994WFyBdV6mQEo8d3T+URQe55/M0U0eIH0Hts1bg==",
+      "type": "package",
+      "path": "system.io.packaging/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Packaging.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Packaging.targets",
+        "lib/net462/System.IO.Packaging.dll",
+        "lib/net462/System.IO.Packaging.xml",
+        "lib/net6.0/System.IO.Packaging.dll",
+        "lib/net6.0/System.IO.Packaging.xml",
+        "lib/net7.0/System.IO.Packaging.dll",
+        "lib/net7.0/System.IO.Packaging.xml",
+        "lib/net8.0/System.IO.Packaging.dll",
+        "lib/net8.0/System.IO.Packaging.xml",
+        "lib/netstandard2.0/System.IO.Packaging.dll",
+        "lib/netstandard2.0/System.IO.Packaging.xml",
+        "system.io.packaging.8.0.0.nupkg.sha512",
+        "system.io.packaging.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Security.AccessControl/6.0.0": {
       "sha512": "AUADIc0LIEQe7MzC+I0cl0rAT8RrTAKFHl53yHjEUzNVIaUlhFY11vc2ebiVJzVBuOzun6F7FBA+8KAbGTTedQ==",
       "type": "package",
@@ -2660,6 +2918,18 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "WebActivatorEx/2.1.0": {
+      "sha512": "0HJ6DpxcTzSGIgcN6Q0jKAwLX1bWKnbeDOvT7vFXB/e4MIrwWc+1XwzihQp0Sr91EUK2N7j5cjZ1cIvWCraeJg==",
+      "type": "package",
+      "path": "webactivatorex/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/WebActivatorEx.dll",
+        "webactivatorex.2.1.0.nupkg.sha512",
+        "webactivatorex.nuspec"
+      ]
+    },
     "WebGrease/1.6.0": {
       "sha512": "1d29edoh4IZPLig82coowiPBS1ltxT97PwEIkOk0dHqtJwD9v5C7gPm6Ot1hKHT86otKm04oDQ00x5c+PyVyxw==",
       "type": "package",
@@ -2678,7 +2948,9 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Antlr >= 3.5.0.2",
+      "DocumentFormat.OpenXml >= 3.0.2",
       "EntityFramework >= 6.5.0-preview2-24180-01",
+      "Fluent.Infrastructure >= 2.0.0-beta-01",
       "Microsoft.AspNet.Identity.Core >= 2.2.4",
       "Microsoft.AspNet.Identity.EntityFramework >= 2.2.4",
       "Microsoft.AspNet.Identity.Owin >= 2.2.4",
@@ -2764,9 +3036,17 @@
             "target": "Package",
             "version": "[3.5.0.2, )"
           },
+          "DocumentFormat.OpenXml": {
+            "target": "Package",
+            "version": "[3.0.2, )"
+          },
           "EntityFramework": {
             "target": "Package",
             "version": "[6.5.0-preview2-24180-01, )"
+          },
+          "Fluent.Infrastructure": {
+            "target": "Package",
+            "version": "[2.0.0-beta-01, )"
           },
           "Microsoft.AspNet.Identity.Core": {
             "target": "Package",
@@ -2921,6 +3201,36 @@
       "warningLevel": 1,
       "message": "Package 'Antlr 3.5.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Antlr",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoMapper 4.2.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Castle.Core 3.3.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Castle.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Fluent.Infrastructure 2.0.0-beta-01' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Fluent.Infrastructure",
       "targetGraphs": [
         "net8.0"
       ]
@@ -3111,6 +3421,16 @@
       "warningLevel": 1,
       "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Owin",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebActivatorEx 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WebActivatorEx",
       "targetGraphs": [
         "net8.0"
       ]

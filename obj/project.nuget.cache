@@ -1,13 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "Dqk8SsoYoqBJVRdNN1SWmttnUXqKyz64v5sbzZ/+xgf94YCJJxQwKKm9CmBXU2qGtNAv9YErgH5tjNyZsQAM+A==",
+  "dgSpecHash": "qM+JGq1mG4tnOjBYxv2MvDDQXd2TaxPfFBogVzM9i0ztXrW3UCH2YczBS/RBhuBiVpIY5LWtrzCD4lXwzkZQdg==",
   "success": true,
   "projectFilePath": "E:\\PEÑAFLOR-ELEC2024_HOSPITAL_BSCS_32E1\\ELEC2024_HOSPITAL_BSCS_32E1\\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josei\\.nuget\\packages\\antlr\\3.5.0.2\\antlr.3.5.0.2.nupkg.sha512",
+    "C:\\Users\\josei\\.nuget\\packages\\automapper\\4.2.1\\automapper.4.2.1.nupkg.sha512",
     "C:\\Users\\josei\\.nuget\\packages\\bootbox\\4.3.0\\bootbox.4.3.0.nupkg.sha512",
     "C:\\Users\\josei\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512",
+    "C:\\Users\\josei\\.nuget\\packages\\castle.core\\3.3.3\\castle.core.3.3.3.nupkg.sha512",
+    "C:\\Users\\josei\\.nuget\\packages\\documentformat.openxml\\3.0.2\\documentformat.openxml.3.0.2.nupkg.sha512",
+    "C:\\Users\\josei\\.nuget\\packages\\documentformat.openxml.framework\\3.0.2\\documentformat.openxml.framework.3.0.2.nupkg.sha512",
     "C:\\Users\\josei\\.nuget\\packages\\entityframework\\6.5.0-preview2-24180-01\\entityframework.6.5.0-preview2-24180-01.nupkg.sha512",
+    "C:\\Users\\josei\\.nuget\\packages\\fluent.infrastructure\\2.0.0-beta-01\\fluent.infrastructure.2.0.0-beta-01.nupkg.sha512",
     "C:\\Users\\josei\\.nuget\\packages\\jquery\\3.7.1\\jquery.3.7.1.nupkg.sha512",
     "C:\\Users\\josei\\.nuget\\packages\\jquery.datatables\\1.10.15\\jquery.datatables.1.10.15.nupkg.sha512",
     "C:\\Users\\josei\\.nuget\\packages\\jquery.validation\\1.20.0\\jquery.validation.1.20.0.nupkg.sha512",
@@ -47,11 +52,13 @@
     "C:\\Users\\josei\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\josei\\.nuget\\packages\\system.data.sqlclient\\4.8.6\\system.data.sqlclient.4.8.6.nupkg.sha512",
     "C:\\Users\\josei\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\josei\\.nuget\\packages\\system.io.packaging\\8.0.0\\system.io.packaging.8.0.0.nupkg.sha512",
     "C:\\Users\\josei\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
     "C:\\Users\\josei\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
     "C:\\Users\\josei\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
     "C:\\Users\\josei\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\josei\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\josei\\.nuget\\packages\\webactivatorex\\2.1.0\\webactivatorex.2.1.0.nupkg.sha512",
     "C:\\Users\\josei\\.nuget\\packages\\webgrease\\1.6.0\\webgrease.1.6.0.nupkg.sha512"
   ],
   "logs": [
@@ -61,6 +68,36 @@
       "warningLevel": 1,
       "message": "Package 'Antlr 3.5.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Antlr",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoMapper 4.2.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Castle.Core 3.3.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Castle.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Fluent.Infrastructure 2.0.0-beta-01' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Fluent.Infrastructure",
       "targetGraphs": [
         "net8.0"
       ]
@@ -251,6 +288,16 @@
       "warningLevel": 1,
       "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Owin",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebActivatorEx 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WebActivatorEx",
       "targetGraphs": [
         "net8.0"
       ]

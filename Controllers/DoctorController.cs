@@ -4,13 +4,13 @@ using System.Linq;
 using System.Security.Policy;
 using System.Web;
 using System.Web.Mvc;
-using BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.CollectionViewModels;
-using BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Models;
+using Hospital_Management_System.CollectionViewModels;
+using Hospital_Management_System.Models;
 using Microsoft.AspNet.Identity;
 using System.Data.Entity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Controllers
+namespace Hospital_Management_System.Controllers
 {
     public class DoctorController : Controller
     {

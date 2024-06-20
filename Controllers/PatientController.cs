@@ -1,14 +1,14 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.CollectionViewModels;
-using BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Models;
+using Hospital_Management_System.CollectionViewModels;
+using Hospital_Management_System.Models;
 using Microsoft.AspNet.Identity;
 
-namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Controllers
+namespace Hospital_Management_System.Controllers
 {
     public class PatientController : Controller
     {
@@ -48,7 +48,7 @@ namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Controllers
             return View(model);
         }
 
-         //Update Patient profile
+        //Update Patient profile
         [Authorize(Roles = "Patient")]
         public ActionResult UpdateProfile(string id)
         {

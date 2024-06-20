@@ -4,11 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Models
+namespace Hospital_Management_System.Models
 {
     public class Announcement
     {
-        public int Id { get; set; }
+        public int  Id { get; set; }
         [Required]
         [Display(Name = "Announcement")]
         public string Announcements { get; set; }

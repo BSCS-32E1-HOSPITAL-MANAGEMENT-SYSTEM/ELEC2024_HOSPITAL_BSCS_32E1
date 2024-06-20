@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Models
+namespace Hospital_Management_System.Models
 {
     public class DepartmentStatus
     {

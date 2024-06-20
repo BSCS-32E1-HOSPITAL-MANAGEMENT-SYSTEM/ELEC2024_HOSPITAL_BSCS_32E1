@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.CollectionViewModels;
-using BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Models;
+using Hospital_Management_System.CollectionViewModels;
+using Hospital_Management_System.Models;
 
-namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Controllers
+namespace Hospital_Management_System.Controllers
 {
     public class AdminController : Controller
     {

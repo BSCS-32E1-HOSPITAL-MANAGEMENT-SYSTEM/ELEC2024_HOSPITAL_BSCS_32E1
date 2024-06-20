@@ -8,14 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Models;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.AspNetCore.Mvc;
+using Hospital_Management_System.Models;
 
-namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Controllers
+namespace Hospital_Management_System.Controllers
 {
     [Authorize]
     public class AccountController : Controller
@@ -29,7 +24,7 @@ namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Controllers
             db = new ApplicationDbContext();
         }
 
-        public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
+        public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
             UserManager = userManager;
             SignInManager = signInManager;
@@ -41,9 +36,9 @@ namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Controllers
             {
                 return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
             }
-            private set
-            {
-                _signInManager = value;
+            private set 
+            { 
+                _signInManager = value; 
             }
         }
 
@@ -100,7 +95,7 @@ namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Controllers
                         var patient = db.Patients.Single(c => c.ApplicationUserId == user.Id);
                         if (patient.BloodGroup == null || patient.Contact == null || patient.Gender == null)
                         {
-                            return RedirectToAction("UpdateProfile", "Patient", new { id = user.Id });
+                            return RedirectToAction("UpdateProfile", "Patient", new {id = user.Id});
                         }
                         else
                         {
@@ -151,7 +146,7 @@ namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Controllers
             // If a user enters incorrect codes for a specified amount of time then the user account 
             // will be locked out for a specified amount of time. 
             // You can configure the account lockout settings in IdentityConfig
-            var result = await SignInManager.TwoFactorSignInAsync(model.Provider, model.Code, isPersistent: model.RememberMe, rememberBrowser: model.RememberBrowser);
+            var result = await SignInManager.TwoFactorSignInAsync(model.Provider, model.Code, isPersistent:  model.RememberMe, rememberBrowser: model.RememberBrowser);
             switch (result)
             {
                 case SignInStatus.Success:
@@ -182,7 +177,7 @@ namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.UserName, Email = model.Email, UserRole = "Patient", RegisteredDate = DateTime.Now.Date };
+                var user = new ApplicationUser { UserName = model.UserName, Email = model.Email, UserRole = "Patient", RegisteredDate = DateTime.Now.Date};
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

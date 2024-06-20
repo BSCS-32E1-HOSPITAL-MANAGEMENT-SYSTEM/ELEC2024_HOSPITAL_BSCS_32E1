@@ -6,9 +6,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Models;
+using Hospital_Management_System.Models;
 
-namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Controllers
+namespace Hospital_Management_System.Controllers
 {
     [Authorize]
     public class ManageController : Controller
@@ -32,9 +32,9 @@ namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Controllers
             {
                 return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
             }
-            private set
-            {
-                _signInManager = value;
+            private set 
+            { 
+                _signInManager = value; 
             }
         }
 
@@ -343,7 +343,7 @@ namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Controllers
             base.Dispose(disposing);
         }
 
-        #region Helpers
+#region Helpers
         // Used for XSRF protection when adding external logins
         private const string XsrfKey = "XsrfId";
 
@@ -394,6 +394,6 @@ namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Controllers
             Error
         }
 
-        #endregion
+#endregion
     }
 }

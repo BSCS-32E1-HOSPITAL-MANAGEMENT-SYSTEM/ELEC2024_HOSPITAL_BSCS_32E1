@@ -3,11 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
-using BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Models;
-using DocumentFormat.OpenXml.Bibliography;
-using Fluent.Infrastructure.FluentModel;
 
-namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Models
+namespace Hospital_Management_System.Models
 {
     public class Doctor
     {

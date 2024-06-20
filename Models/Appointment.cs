@@ -1,10 +1,10 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ComponentModel.DataAnnotations;
 using System.Web;
 
-namespace BSCS_32E1_HOSPITAL_MANAGEMENT_SYSTEM.Models
+namespace Hospital_Management_System.Models
 {
     public class Appointment
     {

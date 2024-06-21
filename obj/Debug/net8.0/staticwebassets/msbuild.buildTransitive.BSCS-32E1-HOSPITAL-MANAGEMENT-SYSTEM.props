@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\BSCS-32E1-HOSPITAL-MANAGEMENT-SYSTEM.props" />
-</Project>

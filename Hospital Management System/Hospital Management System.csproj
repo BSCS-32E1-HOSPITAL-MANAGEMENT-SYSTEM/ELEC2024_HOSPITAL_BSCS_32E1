@@ -530,6 +530,7 @@
     <Content Include="Content\Layout\resources\css\img\hospital-174924_1280.jpg" />
     <Content Include="Content\Layout\resources\css\queries.css" />
     <Content Include="Content\Layout\resources\css\style.css" />
+    <Content Include="Content\Layout\resources\img\Alabang.jpg" />
     <Content Include="Content\Layout\resources\img\app-iPhone.png" />
     <Content Include="Content\Layout\resources\img\customer-1.jpg" />
     <Content Include="Content\Layout\resources\img\customer-2.jpg" />
@@ -537,9 +538,12 @@
     <Content Include="Content\Layout\resources\img\Faislabad.jpg" />
     <Content Include="Content\Layout\resources\img\Gujranwala.jpg" />
     <Content Include="Content\Layout\resources\img\Lahore.jpg" />
+    <Content Include="Content\Layout\resources\img\Las Pinas.jpg" />
     <Content Include="Content\Layout\resources\img\logo-white.jpg" />
     <Content Include="Content\Layout\resources\img\logo.jpg" />
+    <Content Include="Content\Layout\resources\img\Makati.jpg" />
     <Content Include="Content\Layout\resources\img\Multan.png" />
+    <Content Include="Content\Layout\resources\img\Quezon City.jpg" />
     <Content Include="Content\Layout\resources\js\script.js" />
     <Content Include="Content\Layout\vendors\css\animate.css" />
     <Content Include="Content\Layout\vendors\css\grid.css" />
